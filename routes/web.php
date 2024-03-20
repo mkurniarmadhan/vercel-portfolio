@@ -5,6 +5,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 
-    // dd(User::all());
+    dd(User::all());
     return view('welcome');
 });
