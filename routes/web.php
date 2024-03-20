@@ -1,9 +1,10 @@
 <?php
 
+use App\Models\User;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 
-    return 'success';
-    // return view('welcome');
+    // dd(User::all());
+    return view('welcome');
 });
